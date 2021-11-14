@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NewsKotlinApp</string>
+    <string name="Search_in_feed">Search in feed</string>
+</resources>
