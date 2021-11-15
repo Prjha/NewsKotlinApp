@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
 
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
                 madapter?.filter?.filter(p0)
+                totalPost.text = listView.count.toString()
 
 
             }
